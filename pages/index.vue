@@ -41,7 +41,7 @@ export default {
 
   computed: {
     shareLink: function() {
-      return `https://twitter.com/intent/tweet?text=${this.quoteText} - Carl Sagan, Cosmos %23cosmos%0D%0A%0D%0Ahttps://bit.ly/cosmosq by @akiocodes`
+      return `https://twitter.com/intent/tweet?text=${this.quoteText} - Carl Sagan, Cosmos %23cosmos%0D%0A%0D%0Ahttps://bit.ly/cosmosqs by @akiocodes`
     },
   },
 
