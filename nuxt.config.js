@@ -51,5 +51,8 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  router: {
+    base: process.env.NODE_ENV === 'production' ? '/cosmosquotes/' : ''
+  },
 }
