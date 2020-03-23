@@ -1,7 +1,9 @@
 <template>
   <div>
-    <nuxt-link to="/">Generate Quotes</nuxt-link>
-    <nuxt-link to="/about">What is this?</nuxt-link>
+    <div class="flex justify-end">
+      <nuxt-link class="mx-4 mb-4 md:my-3" to="/">Generate Quotes</nuxt-link>
+      <nuxt-link class="mx-4 mb-4 md:my-3" to="/about">What is this?</nuxt-link>
+    </div>
 
     <nuxt />
 
@@ -42,7 +44,7 @@ html {
 }
 
 .card {
-  @apply flex flex-col justify-center rounded overflow-hidden shadow-lg bg-white text-black mb-6;
+  @apply flex flex-col justify-center rounded overflow-scroll shadow-lg bg-white text-black mb-6;
 }
 
 .card--quote {

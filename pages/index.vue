@@ -10,7 +10,7 @@
       </div>
 
       <div class="md:inline-flex block md:self-end">
-        <a type="button" class="button button--tweet md:mr-4 mb-4 md:mb-0 hover:bg-blue-500 w-full md:w-auto text-center"
+        <a type="button" class="button button--tweet md:mr-4 mb-4 md:mb-0 hover:bg-blue-500 w-full md:w-auto text-center no-underline"
           :href="this.shareLink" target="_blank"
           rel="noopener noreferrer">
           Share on Twitter
@@ -69,7 +69,7 @@ export default {
 }
 
 @media only screen and (max-width: 768px) {
-  .card {
+  .card--quote {
     height: 35rem;
   }
 }
